@@ -1,0 +1,7 @@
+setuptools
+cryptography
+asn1crypto
+pdfminer.six
+lxml
+pykcs11
+endesive
