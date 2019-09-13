@@ -106,3 +106,13 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# Certificates
+*.pem
+*.p12
+
+# Generated docuemnts
+*.pdf
+
+# conf files
+*.conf
