@@ -4,7 +4,7 @@ from endesive import pdf
 
 
 def main():
-    trusted_cert_pems = (open('demo2_ca.crt.pem', 'rt').read(),)
+    trusted_cert_pems = (open('ca.crt.pem', 'rt').read(),)
     for fname in (
             'pdf-signed-cms.pdf',
             'pdf-signed-fpdf.pdf',
