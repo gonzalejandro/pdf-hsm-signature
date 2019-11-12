@@ -1,7 +1,4 @@
-setuptools
-cryptography
-asn1crypto
-pdfminer.six
-lxml
-pykcs11
-endesive
+pyOpenSSL==19.0.0
+PyKCS11==1.5.5
+cryptography==2.8
+endesive==1.2.2
