@@ -11,6 +11,14 @@ repositories {
     mavenCentral()
 }
 
+ext {
+    bouncycastleVersion = '1.64'
+}
+
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
+    compile (
+            'org.apache.pdfbox:pdfbox:2.0.17',
+            'org.bouncycastle:bcpkix-jdk15on:' + bouncycastleVersion,
+    )
 }
