@@ -1,5 +1,5 @@
 setuptools
-cryptography==2.8
+cryptography==3.2
 pyOpenSSL==19.0.0
 PyKCS11==1.5.5
 endesive==1.2.2
